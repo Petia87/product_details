@@ -2,6 +2,9 @@
 .ProductData {
     width: 50%;
 }
+.ProductImage {
+    width: 10%;
+}
 
 .PrimaryButton {
     color: white;
