@@ -1,10 +1,13 @@
 import logo from './logo.png'
 import classes from './App.module.css';
-import ProductData from './ProductData'
+
+import ProductPreview from './ProductPreview'
+import ProductDetalis from './ProductDetalis/ProductDetalisApp'
 
 function App() {
+
   return (
-    <div className="App">
+    <div className="classes.App">
       <header className="App-header">
         <nav className={classes.Topbar}>
           <img src={logo} alt="" />
@@ -12,25 +15,13 @@ function App() {
       </header>
 
       <div className={classes.MainContainer}>
-        <div className={classes.ProductPreview}>
-          <img src='https://imgur.com/iOeUBV7.png' alt="" />
-        </div>
-        <div className={classes.ProductData}>
-          <h1 className={classes.ProductTitle}>{ProductData.title}</h1>
-          console.log(ProductData.title);
-          <p className={classes.ProductDescription}>{ProductData.description}</p>
-          <h3 className={classes.SectionHeading}>Select Color</h3>
-          <div >
-          <img  className={classes.ProductImage}
-          src='https://imgur.com/PTgQlim.png' alt="" />
-           <img  className={classes.ProductImage}
-          src='https://imgur.com/PTgQlim.png' alt="" />
-           <img  className={classes.ProductImage}
-          src='https://imgur.com/PTgQlim.png' alt="" />
-           <img  className={classes.ProductImage}
-          src='https://imgur.com/PTgQlim.png' alt="" />
-        </div>
-        </div>
+ 
+        <ProductPreview />
+       
+     
+        <ProductDetalis />
+      
+
 
       </div>
     </div >

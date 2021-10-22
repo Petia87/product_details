@@ -1,0 +1,17 @@
+.ProductPreview {
+    width: 40%;
+    position: relative;
+  }
+
+.TimeSection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 7rem;
+  }
+  
+.ProductPreview>img {
+    width: 100%;
+  }
