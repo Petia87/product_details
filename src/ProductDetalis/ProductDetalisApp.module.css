@@ -1,78 +1,6 @@
-.ProductSecondPreview {
-    width: 40%;
-    position: relative;
-}
-
-.HertBeadSection {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 5rem;
-}
-
-.HertBeadSection>i {
-    color: red;
-    animation: beat 1s infinite
-}
-
-@keyframes beat {
-    0% {
-        transform: scale(1, 1);
-    }
-    50% {
-        transform: scale(1.2, 1.2);
-    }
-    100% {
-        transform: scale(1, 1);
-    }
-}
-
-.ProductPreview>img {
-    width: 100%;
-}
 
 .ProductData {
     width: 50%;
-}
-
-.ProductTitle {
-    font-size: 7rem;
-    font-weight: 600;
-}
-
-.ProductDescription {
-    font-size: 5rem;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.SectionHeading {
-    font-size: 5rem;
-}
-
-.ProductImage {
-    width: 10%;
-}
-
-.FeatureItem {
-    min-width: 80px;
-    background-color: white;
-    border-radius: 10%;
-    border: 0;
-    text-align: center;
-    margin-right: 12px;
-    cursor: pointer;
-    box-sizing: content-box;
-    padding: 24px 48px;
-    font-weight: 600;
-    font-size: 3rem;
-}
-
-.SelectedFeatureItem {
-    color: white;
-    background-color: gray;
-    font-size: 3rem
 }
 
 .PrimaryButton {
@@ -84,3 +12,8 @@
     padding: 24px 48px;
     margin-top: 25px;
 }
+.SectionHeading {
+    font-size: 5rem;
+}
+
+

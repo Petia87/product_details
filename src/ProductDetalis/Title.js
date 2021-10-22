@@ -6,7 +6,7 @@ import ProductData from '../ProductData';
 
 const Title = () => {
     return (
-    <div className={classes.ProductData}>
+    <div >
         <h1 className={classes.ProductTitle}>{ProductData.title}</h1>
 
         <p className={classes.ProductDescription}>{ProductData.description}</p>

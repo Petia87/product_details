@@ -1,43 +1,24 @@
 import React from 'react'
-import classes from './ProductDetalis.module.css';
+import classes from './ProductDetalisApp.module.css';
+
 import ProductData from '../ProductData';
-import ProductDetalis from './ProductDetalis';
+import Title from './Title';
+import ProductImg from './ProductImg';
+import Button from './Button';
+import ProductSecondPreview from './ProductSecondPreview';
 
 
-const ProductDetalis = (props) => {
+
+const ProductDetalisApp = (props) => {
     return (
-    <div className={classes.ProductData}>
-        <h1 className={classes.ProductTitle}>{ProductData.title}</h1>
-
-        <p className={classes.ProductDescription}>{ProductData.description}</p>
-        <h3 className={classes.SectionHeading}>Select Color</h3>
-        <div >
-            <img className={classes.ProductImage}
-                src='https://imgur.com/PTgQlim.png' alt="" />
-            <img className={classes.ProductImage}
-                src='https://imgur.com/PTgQlim.png' alt="" />
-            <img className={classes.ProductImage}
-                src='https://imgur.com/PTgQlim.png' alt="" />
-            <img className={classes.ProductImage}
-                src='https://imgur.com/PTgQlim.png' alt="" />
+        <div className={classes.ProductData}>
+            <Title />
+            <ProductImg />
+            <h3 className={classes.SectionHeading}>Features</h3>
+            <Button />
+            <button className={classes.PrimaryButton}>Buy Now</button>
+            <ProductSecondPreview />
         </div>
-        <h3 className={classes.SectionHeading}>Features</h3>
-        <div >
-            <button className={[classes.FeatureItem, classes.SelectedFeatureItem].join(" ")}>Time</button>
-            <button className={classes.FeatureItem}>Heart Rate</button>
-        </div>
-        <button className={classes.PrimaryButton}>Buy Now</button>
-        <div className={classes.ProductSecondPreview}>
-            <img src='https://imgur.com/iOeUBV7.png' alt="" />
-            <div className={classes.HertBeadSection}>
-                <i class="fas fa-heartbeat"></i>
-                <p>
-                    78
-                </p>
-
-            </div>
-        </div>
-    </div>
     )
 }
-export default ProductDetalis
+export default ProductDetalisApp

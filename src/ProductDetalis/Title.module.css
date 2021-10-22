@@ -1,0 +1,18 @@
+.ProductData {
+    width: 50%;
+}
+
+.ProductTitle {
+    width: 100%;
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+.ProductDescription {
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.SectionHeading {
+    font-size: 5rem;
+}

@@ -8,19 +8,6 @@ body {
   height: auto;
   width: 800px;
 }
-.Topbar {
-  width: 100%;
-  background-color: rgb(194, 184, 184);
-  padding: 0.5rem 0.3rem;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.Topbar>img {
-  width:300px;
-}
 
 .MainContainer {
   padding: 5rem 3rem;
@@ -37,5 +24,7 @@ body {
 .ProductData {
   width: 50%;
 }
-
+.ProductPreview>img {
+  width: 100%;
+}
 
