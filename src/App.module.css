@@ -1,0 +1,53 @@
+body{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 12px;
+  width: 100%;
+  background-color: lavender;
+}
+.Topbar {
+width: 100%;
+background-color:rgb(194, 184, 184);
+padding:0.5rem ;
+text-align: center;
+
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.Topbar >img{
+  width: 5rem;
+}
+
+.MainContainer{
+padding: 3rem 1rem;
+margin-top: 3rem;
+box-sizing: border-box;
+
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+.ProductPreview{
+width: 50%;
+}
+.ProductPreview > img{
+  width: 100%;
+  }
+
+  .ProductData{
+    width: 50%;
+    }
+    .ProductTitle{
+     font-size: 3rem;
+     font-weight: 600;
+      }
+      .ProductDescription{
+       font-size: 2rem;
+       color: rgba(0, 0, 0, 0.8);
+        }
+
+.ProductPreview >img{
+  width: 100%;
+  }
