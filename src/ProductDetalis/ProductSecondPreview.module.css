@@ -16,7 +16,7 @@
 }
 
 .HertBeadSection1>i {
-    color:pink;
+    color:green;
     animation: beat 1s infinite
 }
 
@@ -30,4 +30,7 @@
     100% {
         transform: scale(1, 1);
     }
+}
+.Message{
+    font-size: 2rem;
 }

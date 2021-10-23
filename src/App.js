@@ -5,8 +5,6 @@ import ProductPreview from './ProductPreview'
 import ProductDetalisApp from './ProductDetalis/ProductDetalisApp'
 import ProductData from './ProductData';
 
-
-
 class App extends Component {
   state = {
     productData: ProductData,
@@ -28,7 +26,6 @@ class App extends Component {
           currentPreviewImage={this.state.productData.colorOptions
           [this.state.currentPreviewImagePos].imageUrl}
             currentSelectedFeature={this.state.currentSelectedFeature} />
-
 
           <ProductDetalisApp data={this.state.productData}
             onColorOptionClick={this.onColorOptionClick}
