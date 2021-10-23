@@ -6,17 +6,17 @@
     width: 100%;
   }
 
-.HertBeadSection {
+.HertBeadSection1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
-.HertBeadSection>i {
-    color: red;
+.HertBeadSection1>i {
+    color:pink;
     animation: beat 1s infinite
 }
 

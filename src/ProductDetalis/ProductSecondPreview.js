@@ -8,10 +8,10 @@ const ProductSecondPreview = () => {
     return (
         <div className={classes.ProductSecondPreview}>
             <img src='https://imgur.com/iOeUBV7.png' alt="" />
-            <div className={classes.HertBeadSection}>
-                <i class="fas fa-heartbeat"></i>
+            <div className={classes.HertBeadSection1}>
+                <i className="fas fa-envelope"></i>
                 <p>
-                    78
+                  You have a 
                 </p>
 
             </div>
